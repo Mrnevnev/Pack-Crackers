@@ -1,2 +1,2 @@
-# Pack-Crackers
-Card battle game.
+# Pack-Cracker
+ Card game developed by Nevill Alex Adeyeye

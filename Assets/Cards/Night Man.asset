@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f9ced1179b52d943b9d37974317e9ac, type: 3}
+  m_Name: Night Man
+  m_EditorClassIdentifier: 
+  cardName: Night Man
+  cardAbility: Plus 10 ATK
+  cardLore: Wants the boys hole.
+  cardHealth: 26
+  cardAttack: 1
+  cardCost: 2
+  characterSprite: {fileID: 21300000, guid: 28ab477fda36bcc49924dd1056453ff8, type: 3}
+  backgroundSprite: {fileID: 21300000, guid: 5b8d453954560794a8e87dbd37b7847d, type: 3}
