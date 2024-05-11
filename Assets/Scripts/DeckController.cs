@@ -83,7 +83,7 @@ public class DeckController : MonoBehaviour
             
             DrawCardToHand();
             BattleController.instance.SpendPlayerGold(drawCardCost);
-            BattleController.instance.SpendEnemyGold(drawCardCost);
+           
 
         }
         else

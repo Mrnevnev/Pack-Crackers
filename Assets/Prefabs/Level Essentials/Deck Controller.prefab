@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &579441113266302927
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 579441113266302925}
+  - component: {fileID: 579441113266302926}
+  m_Layer: 0
+  m_Name: Deck Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &579441113266302925
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579441113266302927}
+  m_LocalRotation: {x: -0, y: -0, z: -0.99999714, w: 0.0023930662}
+  m_LocalPosition: {x: 5.13, y: 0.787, z: -0.36}
+  m_LocalScale: {x: 1.4508, y: 7.4733896, z: 1.4508}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1116945356867392281}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -179.726}
+--- !u!114 &579441113266302926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579441113266302927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2187215044779844837ffbb16f9e0c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deckToUse:
+  - {fileID: 11400000, guid: e41e556b99cb72047b5a43b728e1fedd, type: 2}
+  cardToSpawn: {fileID: 7151096337184406511, guid: 861aebbacdccad74f91cff280b904102,
+    type: 3}
+  drawCardCost: 2
+  waitBetweenDrawingCards: 0.5
+--- !u!1001 &9096292247291852109
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 579441113266302925}
+    m_Modifications:
+    - target: {fileID: 8195612856719386196, guid: f866faf1231f5e44792eca64934823ac,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195612856719386196, guid: f866faf1231f5e44792eca64934823ac,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0020000245
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195612856719386196, guid: f866faf1231f5e44792eca64934823ac,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.08800055
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195612856719386196, guid: f866faf1231f5e44792eca64934823ac,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195612856719386196, guid: f866faf1231f5e44792eca64934823ac,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6982269
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195612856719386196, guid: f866faf1231f5e44792eca64934823ac,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6971257
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195612856719386196, guid: f866faf1231f5e44792eca64934823ac,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.11509777
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195612856719386196, guid: f866faf1231f5e44792eca64934823ac,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.11509782
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195612856719386196, guid: f866faf1231f5e44792eca64934823ac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -89.912
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195612856719386196, guid: f866faf1231f5e44792eca64934823ac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195612856719386196, guid: f866faf1231f5e44792eca64934823ac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 18.721
+      objectReference: {fileID: 0}
+    - target: {fileID: 8860685843024739566, guid: f866faf1231f5e44792eca64934823ac,
+        type: 3}
+      propertyPath: m_Name
+      value: Deck Model
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f866faf1231f5e44792eca64934823ac, type: 3}
+--- !u!4 &1116945356867392281 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8195612856719386196, guid: f866faf1231f5e44792eca64934823ac,
+    type: 3}
+  m_PrefabInstance: {fileID: 9096292247291852109}
+  m_PrefabAsset: {fileID: 0}
