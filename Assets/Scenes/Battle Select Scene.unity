@@ -481,7 +481,7 @@ PrefabInstance:
     - target: {fileID: 3252121128201429309, guid: b77b09d3c0d998d4fb93ebb994cfc2cf,
         type: 3}
       propertyPath: m_Name
-      value: Frame_BasicFrame_Square01
+      value: Battle Scene 1 (Senri)
       objectReference: {fileID: 0}
     - target: {fileID: 3252121128201429310, guid: b77b09d3c0d998d4fb93ebb994cfc2cf,
         type: 3}
@@ -496,7 +496,7 @@ PrefabInstance:
     - target: {fileID: 3252121128201429310, guid: b77b09d3c0d998d4fb93ebb994cfc2cf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3252121128201429310, guid: b77b09d3c0d998d4fb93ebb994cfc2cf,
         type: 3}
@@ -690,7 +690,7 @@ PrefabInstance:
     - target: {fileID: 3252121128201429309, guid: b77b09d3c0d998d4fb93ebb994cfc2cf,
         type: 3}
       propertyPath: m_Name
-      value: Frame_BasicFrame_Square01 (2)
+      value: Battle Scene 3 (Mikan)
       objectReference: {fileID: 0}
     - target: {fileID: 3252121128201429310, guid: b77b09d3c0d998d4fb93ebb994cfc2cf,
         type: 3}
@@ -888,7 +888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d35a24ccdfddc034ab1b6a98ebe31db7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToLoad: Battle Scene 1 (Senri)
+  levelToLoad: Battle Scene 3 (Mikan)
 --- !u!1001 &855716432
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1094,7 +1094,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1781328302}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &928983546
 MonoBehaviour:
@@ -1592,8 +1592,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 973183259}
-  - {fileID: 573452235}
   - {fileID: 928983545}
+  - {fileID: 573452235}
   - {fileID: 1976144548}
   - {fileID: 601621713}
   - {fileID: 855716433}
@@ -1617,7 +1617,7 @@ PrefabInstance:
     - target: {fileID: 3252121128201429309, guid: b77b09d3c0d998d4fb93ebb994cfc2cf,
         type: 3}
       propertyPath: m_Name
-      value: Frame_BasicFrame_Square01 (1)
+      value: Battle Scene 2  (Choji)
       objectReference: {fileID: 0}
     - target: {fileID: 3252121128201429310, guid: b77b09d3c0d998d4fb93ebb994cfc2cf,
         type: 3}
@@ -1815,4 +1815,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d35a24ccdfddc034ab1b6a98ebe31db7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToLoad: Battle Scene 1 (Senri)
+  levelToLoad: Battle Scene 2  (Choji)
