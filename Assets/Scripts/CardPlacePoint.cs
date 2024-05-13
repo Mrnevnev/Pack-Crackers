@@ -1,3 +1,4 @@
+//CardPlacePoint
 using UnityEngine;
 
 public class CardPlacePoint : MonoBehaviour

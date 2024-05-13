@@ -1,3 +1,4 @@
+//CardScriptableObject
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,4 +14,6 @@ public class CardScriptableObject : ScriptableObject
     public int cardHealth, cardAttack, cardCost;
 
     public Sprite characterSprite, backgroundSprite;
+    
+    
 }
