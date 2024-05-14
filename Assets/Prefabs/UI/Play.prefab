@@ -153,7 +153,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &8375904023401904093
 RectTransform:
   m_ObjectHideFlags: 0
@@ -283,6 +283,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Super Text
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010050044218, guid: 126f64ff6a5ca475c8956a8d6bd4acef, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 114000010935711306, guid: 126f64ff6a5ca475c8956a8d6bd4acef,
         type: 3}
       propertyPath: _text
@@ -331,7 +335,7 @@ PrefabInstance:
     - target: {fileID: 114000010935711306, guid: 126f64ff6a5ca475c8956a8d6bd4acef,
         type: 3}
       propertyPath: currentReadTime
-      value: 0.1717493
+      value: 7.366414
       objectReference: {fileID: 0}
     - target: {fileID: 114000010935711306, guid: 126f64ff6a5ca475c8956a8d6bd4acef,
         type: 3}
