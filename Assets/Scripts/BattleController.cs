@@ -33,6 +33,8 @@ public class BattleController : MonoBehaviour
     public bool battleEnded;
 
     public float resultScreenDelay = 1f;
+
+    public float playerFirstStrike;
     
     // Start is called before the first frame update
     void Start()
@@ -49,6 +51,19 @@ public class BattleController : MonoBehaviour
         DeckController.instance.DrawMultipleCards(startingCardAmount);
         UiController.instance.SetEnemyHealthText(enemyHealth);
         UiController.instance.SetPlayerHealthText(playerHealth);
+
+        if (Random.value > playerFirstStrike) 
+        {
+            // Set the turn order to the enemy
+            currentPhase = TurnOrder.PlayerCardAttacks;
+            
+            AdvanceTurn();
+        }
+        else
+        {
+            // Set the turn order to the player
+            currentPhase = TurnOrder.PlayerActive;
+        }
         
 
     }
@@ -60,6 +75,8 @@ public class BattleController : MonoBehaviour
         {
             AdvanceTurn();
         }*/
+        
+        
     }
 
     public void SpendPlayerGold(int amountToSpend)

@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class UiController : MonoBehaviour
 {
@@ -27,6 +28,12 @@ public class UiController : MonoBehaviour
     public GameObject battleEndScreen;
 
     public TMP_Text battleResultText;
+
+    public string mainMenuScene, optionScene, battleSelectScene;
+
+    public GameObject pauseScreen;
+    
+    
     void Start()
     {
 
@@ -42,6 +49,11 @@ public class UiController : MonoBehaviour
             {
                 goldWarning.SetActive(false);
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            PauseUnpause();
         }
     }
 
@@ -85,17 +97,42 @@ public class UiController : MonoBehaviour
 
     public void MainMenu()
     {
-        
+        SceneManager.LoadScene(mainMenuScene);
+        Time.timeScale = 1f;
     }
 
     public void PlayAgain()
     {
-        
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Time.timeScale = 1f;
     }
 
     public void SelectEnemy()
     {
-        
+        SceneManager.LoadScene(battleSelectScene);
+        Time.timeScale = 1f;
+    }
+    
+    public void Option()
+    {
+        SceneManager.LoadScene(optionScene);
+        Time.timeScale = 1f;
+    }
+
+    public void PauseUnpause()
+    {
+        if (pauseScreen.activeSelf == false)
+        {
+            pauseScreen.SetActive(true);
+
+            Time.timeScale = 0f;
+        }
+        else
+        {
+            pauseScreen.SetActive(false);
+            
+            Time.timeScale = 1f;
+        }
     }
     
 }

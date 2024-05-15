@@ -88,3 +88,4 @@ MonoBehaviour:
   enemyHealth: 50
   battleEnded: 0
   resultScreenDelay: 1.5
+  playerFirstStrike: 0.1

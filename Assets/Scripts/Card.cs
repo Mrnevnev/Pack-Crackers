@@ -86,7 +86,7 @@ public class Card : MonoBehaviour
         transform.position = Vector3.Lerp(transform.position, targetPoint, moveSpeed * Time.deltaTime);
         transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
 
-        if (isSelected)
+        if (isSelected && BattleController.instance.battleEnded == false && Time.timeScale != 0f)
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
@@ -101,7 +101,7 @@ public class Card : MonoBehaviour
                 ReturnToHand();
             }
             
-            if (Input.GetMouseButtonDown(0) && justPressed == false  && BattleController.instance.battleEnded == false)
+            if (Input.GetMouseButtonDown(0) && justPressed == false  && BattleController.instance.battleEnded == false )
             {   
                 //Limiting when the player can use a card.
                 if (Physics.Raycast(ray, out hit, 50f, whatIsPlacement) && BattleController.instance.currentPhase == BattleController.TurnOrder.PlayerActive)
@@ -156,7 +156,7 @@ public class Card : MonoBehaviour
     private void OnMouseOver()
     {
         //Limiting the player from using a when the turn is over and they are still holding the card.
-        if (inHand && BattleController.instance.currentPhase == BattleController.TurnOrder.PlayerActive && isPlayer && BattleController.instance.battleEnded == false)
+        if (inHand && BattleController.instance.currentPhase == BattleController.TurnOrder.PlayerActive && isPlayer && BattleController.instance.battleEnded == false )
         {
             MoveToPoint(theHC.cardPosition[handPosition] + new Vector3(0f, 1f, 0.5f),quaternion.identity);
         }
@@ -164,7 +164,7 @@ public class Card : MonoBehaviour
 
     private void OnMouseExit()
     {
-        if (inHand && isPlayer && BattleController.instance.battleEnded == false)
+        if (inHand && isPlayer && BattleController.instance.battleEnded == false )
         {
             MoveToPoint(theHC.cardPosition[handPosition],theHC.minPosition.rotation);
         }
@@ -172,7 +172,7 @@ public class Card : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (inHand && isPlayer && BattleController.instance.battleEnded == false)
+        if (inHand && isPlayer && BattleController.instance.battleEnded == false && Time.timeScale != 0f)
         {
             isSelected = true;
             theCollider.enabled = false;

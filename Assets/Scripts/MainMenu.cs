@@ -7,6 +7,8 @@ public class MainMenu : MonoBehaviour
 {
 
     public string battleSelectScene;
+
+    public string optionMenu, mainMenu;
     
     // Start is called before the first frame update
     void Start()
@@ -34,6 +36,10 @@ public class MainMenu : MonoBehaviour
 
     public void Options()
     {
-        
+        SceneManager.LoadScene(optionMenu);
+    }
+    public void Main()
+    {
+        SceneManager.LoadScene(mainMenu);
     }
 }
