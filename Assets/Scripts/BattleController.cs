@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BattleController : MonoBehaviour
 {
 
     public static BattleController instance;
+    
+    public string levelToLoad;
 
     public void Awake()
     {
@@ -52,10 +55,13 @@ public class BattleController : MonoBehaviour
         UiController.instance.SetEnemyHealthText(enemyHealth);
         UiController.instance.SetPlayerHealthText(playerHealth);
 
+       /*
+        
         if (Random.value > playerFirstStrike) 
         {
             // Set the turn order to the enemy
             currentPhase = TurnOrder.PlayerCardAttacks;
+            
             
             AdvanceTurn();
         }
@@ -64,6 +70,8 @@ public class BattleController : MonoBehaviour
             // Set the turn order to the player
             currentPhase = TurnOrder.PlayerActive;
         }
+        
+        */
         
 
     }
@@ -246,7 +254,8 @@ public class BattleController : MonoBehaviour
 
         if (enemyHealth <= 0)
         {
-            UiController.instance.battleResultText.text = "YOU WON!";
+            //UiController.instance.battleResultText.text = "YOU WON!";
+            // try to add scene loader
 
             foreach (CardPlacePoint point in CardsPointsController.instance.enemyCardPoints)
             {
@@ -276,8 +285,17 @@ public class BattleController : MonoBehaviour
     {
 
         yield return new WaitForSeconds(resultScreenDelay);
-        
-        UiController.instance.battleEndScreen.SetActive(true);
+        if (playerHealth <= 0)
+        {
+            UiController.instance.battleEndScreen.SetActive(true);
+            
+        }
+        else
+        if(enemyHealth <= 0)
+        {
+            SceneManager.LoadScene(levelToLoad);
+        }
+
     }
     
 }

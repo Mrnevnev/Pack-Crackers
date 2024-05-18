@@ -76,6 +76,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfb580ea9087b914388202090b554dff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelToLoad: Battle Select Scene
   startingGold: 5
   maxGold: 12
   currentGold: 0
@@ -84,8 +85,8 @@ MonoBehaviour:
   cardsToDrawPerTurn: 2
   currentPhase: 0
   discardPoint: {fileID: 6810234776785665303}
-  playerHealth: 5
-  enemyHealth: 50
+  playerHealth: 20
+  enemyHealth: 20
   battleEnded: 0
   resultScreenDelay: 1.5
   playerFirstStrike: 0.1

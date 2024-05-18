@@ -13,7 +13,7 @@ public class CardScriptableObject : ScriptableObject
 
     public int cardHealth, cardAttack, cardCost;
 
-    public Sprite characterSprite, backgroundSprite;
+    public Sprite /*characterSprite*/ characterImage;
     
     
 }

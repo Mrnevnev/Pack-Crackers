@@ -10,13 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f9ced1179b52d943b9d37974317e9ac, type: 3}
-  m_Name: Cub
+  m_Name: Goob
   m_EditorClassIdentifier: 
-  cardName: Cub
+  cardName: Goob
   cardAbility: Summon 1 Momma Bear
   cardLore: Don't mess with the Cub.
-  cardHealth: 10
-  cardAttack: 3
+  cardHealth: 3
+  cardAttack: 2
   cardCost: 1
-  characterSprite: {fileID: 21300000, guid: b16f367bd518aa446b15002dac71ba7b, type: 3}
-  backgroundSprite: {fileID: 21300000, guid: 91f263c4e2d827c4fa3cb47b7369c9bf, type: 3}
+  characterImage: {fileID: 21300000, guid: 8962ffeb5c03b334d81038fea4e22d3e, type: 3}

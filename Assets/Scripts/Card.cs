@@ -75,8 +75,8 @@ public class Card : MonoBehaviour
         abilityText.text = cardSObject.cardAbility;
         loreText.text = cardSObject.cardLore;
         
-        cardSprite.sprite = cardSObject.characterSprite;
-        cardBackground.sprite = cardSObject.backgroundSprite;
+        //cardSprite.sprite = cardSObject.characterSprite;//
+        cardBackground.sprite = cardSObject.characterImage;
         
     }
 
