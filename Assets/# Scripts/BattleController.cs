@@ -54,7 +54,9 @@ public class BattleController : MonoBehaviour
         DeckController.instance.DrawMultipleCards(startingCardAmount);
         UiController.instance.SetEnemyHealthText(enemyHealth);
         UiController.instance.SetPlayerHealthText(playerHealth);
-
+        
+        AudioManager.instance.PlayBGM();
+        
        /*
         
         if (Random.value > playerFirstStrike) 

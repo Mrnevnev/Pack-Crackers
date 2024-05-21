@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class AMLoader : MonoBehaviour
@@ -11,7 +8,8 @@ public class AMLoader : MonoBehaviour
     {
         if (FindObjectOfType<AudioManager>() == null)
         {
-            Instantiate(theAM);
+            AudioManager.instance = Instantiate(theAM);
+            DontDestroyOnLoad(AudioManager.instance.gameObject);
         }
     }
 }

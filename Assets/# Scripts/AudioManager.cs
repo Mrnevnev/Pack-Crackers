@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = System.Random;
+
 
 public class AudioManager : MonoBehaviour
 {
@@ -13,10 +15,11 @@ public class AudioManager : MonoBehaviour
     {
         if (instance == null)
         {
+            
             instance = this;
             DontDestroyOnLoad(gameObject);
         }
-        else
+        else  if(instance != this)
         {
             Destroy(gameObject);
         }
@@ -25,6 +28,10 @@ public class AudioManager : MonoBehaviour
     public AudioSource menuMusic;
     public AudioSource battleSelectMusic;
     public AudioSource[] bgm;
+    private int currentBGM;
+    private bool playingBGM;
+
+    public AudioSource[] sfx;
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +42,18 @@ public class AudioManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (playingBGM)
+        {
+            if (bgm[currentBGM].isPlaying == false)
+            {
+                currentBGM++;
+                if (currentBGM >= bgm.Length)
+                {
+                    currentBGM = 0;
+                }
+                bgm[currentBGM].Play();
+            }
+        }
     }
 
     public void StopMuisc()
@@ -46,6 +64,8 @@ public class AudioManager : MonoBehaviour
         {
             track.Stop();
         }
+
+        playingBGM = false;
     }
 
     public void PlayMenuMusic()
@@ -66,5 +86,16 @@ public class AudioManager : MonoBehaviour
     public void PlayBGM()
     {
         StopMuisc();
+
+        currentBGM = UnityEngine.Random.Range(0, bgm.Length);
+        
+        bgm[currentBGM].Play();
+        playingBGM = true;
+    }
+
+    public void PlaySFX(int sfxToPlay)
+    {
+        sfx[sfxToPlay].Stop();
+        sfx[sfxToPlay].Play();
     }
 }
