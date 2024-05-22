@@ -74,6 +74,8 @@ public class DeckController : MonoBehaviour
         newCard.SetupCard();
         activeCards.RemoveAt(0);
         HandController.instance.AddCardToHand(newCard);
+        
+        AudioManager.instance.PlaySFX(3); //Drawing Card 
     }
 
     public void DrawCardForGold()

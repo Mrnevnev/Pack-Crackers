@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f9ced1179b52d943b9d37974317e9ac, type: 3}
+  m_Name: Boss Lady
+  m_EditorClassIdentifier: 
+  cardName: Boss Lady
+  cardAbility: Shes a boss.
+  cardLore: 
+  cardHealth: 10
+  cardAttack: 4
+  cardCost: 5
+  characterImage: {fileID: 21300000, guid: 4e7abfcf0e4a8674ca7dbdfadb3af0a6, type: 3}

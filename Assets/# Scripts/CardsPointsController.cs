@@ -60,6 +60,7 @@ public class CardsPointsController : MonoBehaviour
                     BattleController.instance.DamageEnemy(playerCardPoints[i].activeCard.cardAttack);
                 }
                 playerCardPoints[i].activeCard.anim.SetTrigger("Attack");
+                
 
                 yield return new WaitForSeconds(timeBetweenAttacks);
             }
@@ -97,6 +98,9 @@ public class CardsPointsController : MonoBehaviour
                     BattleController.instance.DamagePlayer(enemyCardPoints[i].activeCard.cardAttack);
                 }
                 enemyCardPoints[i].activeCard.anim.SetTrigger("Attack");
+                
+               
+                
                 yield return new WaitForSeconds(timeBetweenAttacks);
             }
             

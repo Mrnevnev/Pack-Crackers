@@ -13,8 +13,11 @@ public class EnemyController : MonoBehaviour
     {
         instance = this;
     }
-
+    
+    
+    
     public List<CardScriptableObject> deckToUse = new List<CardScriptableObject>();
+    [SerializeField]
     private List<CardScriptableObject> activeCards = new List<CardScriptableObject>();
 
     public Card cardToSpawn;
@@ -54,7 +57,8 @@ public class EnemyController : MonoBehaviour
     public void SetUpDeck()
     {
         activeCards.Clear();
-
+        
+        
         List<CardScriptableObject> tempDeck = new List<CardScriptableObject>();
         tempDeck.AddRange(deckToUse);
 
@@ -328,6 +332,8 @@ public class EnemyController : MonoBehaviour
         cardsInHand.Remove(cardSO);
         
         BattleController.instance.SpendEnemyGold(cardSO.cardCost);
+        
+        AudioManager.instance.PlaySFX(4);
     }
     
     

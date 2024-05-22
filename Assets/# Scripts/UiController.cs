@@ -88,35 +88,47 @@ public class UiController : MonoBehaviour
     public void DrawCard()
     {
         DeckController.instance.DrawCardForGold();
+        
+        AudioManager.instance.PlaySFX(0);
     }
 
     public void EndPlayerTurn()
     {
         BattleController.instance.EndPlayerTurn();
+        
+        AudioManager.instance.PlaySFX(0);
     }
 
     public void MainMenu()
     {
         SceneManager.LoadScene(mainMenuScene);
         Time.timeScale = 1f;
+        
+        AudioManager.instance.PlaySFX(0);
     }
 
     public void PlayAgain()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         Time.timeScale = 1f;
+        
+        AudioManager.instance.PlaySFX(0);
     }
 
     public void SelectEnemy()
     {
         SceneManager.LoadScene(battleSelectScene);
         Time.timeScale = 1f;
+        
+        AudioManager.instance.PlaySFX(0);
     }
     
     public void Option()
     {
         SceneManager.LoadScene(optionScene);
         Time.timeScale = 1f;
+        
+        AudioManager.instance.PlaySFX(0);
     }
 
     public void PauseUnpause()
@@ -126,12 +138,16 @@ public class UiController : MonoBehaviour
             pauseScreen.SetActive(true);
 
             Time.timeScale = 0f;
+            
+            AudioManager.instance.PlaySFX(0);
         }
         else
         {
             pauseScreen.SetActive(false);
             
             Time.timeScale = 1f;
+            
+            AudioManager.instance.PlaySFX(0);
         }
     }
     

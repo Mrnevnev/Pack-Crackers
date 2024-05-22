@@ -123,6 +123,8 @@ public class Card : MonoBehaviour
                             
                             BattleController.instance.SpendPlayerGold(cardCost);
                             
+                            AudioManager.instance.PlaySFX(4);
+                            
                         }
                         else
                         {
@@ -209,7 +211,12 @@ public class Card : MonoBehaviour
             
             Destroy(gameObject, 2f);
             
+            AudioManager.instance.PlaySFX(2); //Card Died
             
+        }
+        else
+        {
+            AudioManager.instance.PlaySFX(1); //Card Attack
         }
         
         anim.SetTrigger("Hurt");

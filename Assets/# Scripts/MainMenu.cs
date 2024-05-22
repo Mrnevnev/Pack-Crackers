@@ -14,6 +14,8 @@ public class MainMenu : MonoBehaviour
     void Start()
     {
         AudioManager.instance.PlayMenuMusic();
+        
+        
     }
 
     // Update is called once per frame
@@ -24,7 +26,10 @@ public class MainMenu : MonoBehaviour
 
     public void StartGame()
     {
+        AudioManager.instance.PlaySFX(0);
         SceneManager.LoadScene(battleSelectScene);
+        
+        
     }
 
     public void QuitGame()
@@ -32,11 +37,16 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
         
         Debug.Log("Quitting Game");
+        
+        AudioManager.instance.PlaySFX(0);
     }
 
     public void Options()
     {
         SceneManager.LoadScene(optionMenu);
+        
+        
+        AudioManager.instance.PlaySFX(0);
     }
     public void Main()
     {

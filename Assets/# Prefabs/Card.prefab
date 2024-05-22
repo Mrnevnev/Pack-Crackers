@@ -298,7 +298,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7151096337184406513}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.038, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -318,7 +318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7daf5e74e2acd8340a5e4f352a425c04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardSObject: {fileID: 11400000, guid: e41e556b99cb72047b5a43b728e1fedd, type: 2}
+  cardSObject: {fileID: 11400000, guid: c44e308454123dd44bcb2c0ae12bf1ac, type: 2}
   isPlayer: 1
   cardHealth: 0
   cardAttack: 0
@@ -331,7 +331,7 @@ MonoBehaviour:
   loreText: {fileID: 6699743064834172294}
   cardSprite: {fileID: 7151096338768445355}
   cardBackground: {fileID: 7151096337916580838}
-  inHand: 1
+  inHand: 0
   handPosition: 0
   whatIsDesktop:
     serializedVersion: 2
@@ -933,7 +933,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10.7, y: -7.3}
+  m_AnchoredPosition: {x: 3, y: -7}
   m_SizeDelta: {x: 462.9, y: 275.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7151096337916580839
@@ -964,7 +964,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e3d89e19a761a504ba8b8e785d1a420e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4e7abfcf0e4a8674ca7dbdfadb3af0a6, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
