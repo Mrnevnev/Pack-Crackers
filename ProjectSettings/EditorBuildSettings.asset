@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/# Scenes/Main Menu.unity
     guid: a00a66fb5870ba44f8d073a7a8cb91bc
   - enabled: 1
+    path: Assets/# Scenes/Battle Select Scene.unity
+    guid: ac190087335929242a39ed2d7c66b2df
+  - enabled: 1
+    path: Assets/# Scenes/Options Menu.unity
+    guid: 78b8dd97f9fe1d4468f658f0a1f9b82e
+  - enabled: 1
     path: Assets/# Scenes/Battle Scene 1 (Senri).unity
     guid: a7fe94b9d5a2cda409e49128ab258ef7
   - enabled: 1
@@ -17,10 +23,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/# Scenes/Battle Scene 3 (Mikan).unity
     guid: e802d415c1d09fc42b6951e55f4d7f9b
-  - enabled: 1
-    path: Assets/# Scenes/Battle Select Scene.unity
-    guid: ac190087335929242a39ed2d7c66b2df
-  - enabled: 1
-    path: Assets/# Scenes/Options Menu.unity
-    guid: 78b8dd97f9fe1d4468f658f0a1f9b82e
   m_configObjects: {}
