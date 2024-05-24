@@ -6,14 +6,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class DialogueManager : MonoBehaviour
+public class DialogueManagerNoSwitch : MonoBehaviour
 {
     
     
     public TextMeshProUGUI nameTextUI;
     public TextMeshProUGUI dialogueTextUI;
     public Image characterImage;
-    public string sceneToLoad;
     public Animator animator;
     
     private Queue<string> sentences;
@@ -60,7 +59,7 @@ public class DialogueManager : MonoBehaviour
     {
         animator.SetBool("Is Open", false);
         // Insert code here to perform any necessary actions before loading the scene
-        SceneManager.LoadScene(sceneToLoad);
+        
     }
 
 }
