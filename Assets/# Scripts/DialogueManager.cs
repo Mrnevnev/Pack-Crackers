@@ -15,6 +15,7 @@ public class DialogueManager : MonoBehaviour
     public Image characterImage;
     public string sceneToLoad;
     public Animator animator;
+    public SceneTransition transition;
     
     private Queue<string> sentences;
     

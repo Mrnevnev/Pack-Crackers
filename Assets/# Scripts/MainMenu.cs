@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
 
     public string battleSelectScene;
 
-    public string optionMenu, mainMenu;
+    public string optionMenu, mainMenu, transition;
     
     // Start is called before the first frame update
     void Start()
@@ -28,7 +28,6 @@ public class MainMenu : MonoBehaviour
     {
         AudioManager.instance.PlaySFX(0);
         SceneManager.LoadScene(battleSelectScene);
-        
         
     }
 
