@@ -1670,6 +1670,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6810234778609570007, guid: b436c36239b520349acfbff5347a12a8,
+        type: 3}
+      propertyPath: enemyHealth
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810234778609570007, guid: b436c36239b520349acfbff5347a12a8,
+        type: 3}
+      propertyPath: levelToLoad
+      value: Mikan Dialogue
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b436c36239b520349acfbff5347a12a8, type: 3}
 --- !u!1001 &8910917436019068364
