@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/# Scenes/Choji path/Battle Scene 2  (Choji).unity
     guid: ec8b9520b754db949aaa5b32c12a677a
   - enabled: 1
+    path: Assets/# Scenes/Choji path/Choji after battle.unity
+    guid: e26a8929f236dca4fbecb3f56878826a
+  - enabled: 1
     path: Assets/# Scenes/Senri Dialogue.unity
     guid: 59baafe14e6eecf4eb5c6fff46d4f64d
   - enabled: 1
