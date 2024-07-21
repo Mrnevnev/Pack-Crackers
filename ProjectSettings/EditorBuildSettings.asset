@@ -15,17 +15,17 @@ EditorBuildSettings:
     path: Assets/# Scenes/Main Menu/Options Menu.unity
     guid: 78b8dd97f9fe1d4468f658f0a1f9b82e
   - enabled: 1
-    path: Assets/# Scenes/Choji path/Choji Dialogue.unity
-    guid: a48374a9088281840a1c442a84c88a83
+    path: Assets/# Scenes/Choji path/Choji Dialogue 1.unity
+    guid: a171ed3c8bbff6e4db27ec3c00ee891b
   - enabled: 1
-    path: Assets/# Scenes/Choji path/Choji before battle.unity
-    guid: b16e62b0a4b01ce438a22531187f23ba
+    path: Assets/# Scenes/Choji path/Choji Dialogue 2.unity
+    guid: a48374a9088281840a1c442a84c88a83
   - enabled: 1
     path: Assets/# Scenes/Choji path/Battle Scene 2  (Choji).unity
     guid: ec8b9520b754db949aaa5b32c12a677a
   - enabled: 1
     path: Assets/# Scenes/Choji path/Choji after battle.unity
-    guid: e26a8929f236dca4fbecb3f56878826a
+    guid: 26ee8d52c24a5bb4ab6cd6ff40c30594
   - enabled: 1
     path: Assets/# Scenes/Senri Dialogue.unity
     guid: 59baafe14e6eecf4eb5c6fff46d4f64d

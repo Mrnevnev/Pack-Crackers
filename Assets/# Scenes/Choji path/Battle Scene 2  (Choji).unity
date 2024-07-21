@@ -140,6 +140,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Unit001
       objectReference: {fileID: 0}
+    - target: {fileID: 6129517294390658327, guid: 5a8abf941afa4f344ab2db1bf9c9dcfd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6470590072983292393, guid: 5a8abf941afa4f344ab2db1bf9c9dcfd,
         type: 3}
       propertyPath: m_Pivot.x
@@ -1080,6 +1085,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Unit000
       objectReference: {fileID: 0}
+    - target: {fileID: 3480830404474019479, guid: 0cf271531e8b0744cbde6e832ee7aa47,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7314178538097142162, guid: 0cf271531e8b0744cbde6e832ee7aa47,
         type: 3}
       propertyPath: m_Pivot.x
@@ -1667,6 +1677,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -179.726
       objectReference: {fileID: 0}
+    - target: {fileID: 579441113266302926, guid: 6633f6e9de192204c8e5d55d568d525b,
+        type: 3}
+      propertyPath: deckToUse.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 579441113266302926, guid: 6633f6e9de192204c8e5d55d568d525b,
+        type: 3}
+      propertyPath: deckToUse.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 361a8f19704b94a4ea693714c1be6d45,
+        type: 2}
     - target: {fileID: 579441113266302927, guid: 6633f6e9de192204c8e5d55d568d525b,
         type: 3}
       propertyPath: m_Name
