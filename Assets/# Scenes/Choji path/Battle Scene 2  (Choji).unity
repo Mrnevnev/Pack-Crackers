@@ -1680,13 +1680,25 @@ PrefabInstance:
     - target: {fileID: 579441113266302926, guid: 6633f6e9de192204c8e5d55d568d525b,
         type: 3}
       propertyPath: deckToUse.Array.size
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 579441113266302926, guid: 6633f6e9de192204c8e5d55d568d525b,
         type: 3}
       propertyPath: deckToUse.Array.data[2]
       value: 
       objectReference: {fileID: 11400000, guid: 361a8f19704b94a4ea693714c1be6d45,
+        type: 2}
+    - target: {fileID: 579441113266302926, guid: 6633f6e9de192204c8e5d55d568d525b,
+        type: 3}
+      propertyPath: deckToUse.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 7637bb20925481d4c9c90aff712cd088,
+        type: 2}
+    - target: {fileID: 579441113266302926, guid: 6633f6e9de192204c8e5d55d568d525b,
+        type: 3}
+      propertyPath: deckToUse.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: 621a289baef092540b139fbff5cdb98b,
         type: 2}
     - target: {fileID: 579441113266302927, guid: 6633f6e9de192204c8e5d55d568d525b,
         type: 3}
@@ -1977,7 +1989,7 @@ PrefabInstance:
     - target: {fileID: 6810234778609570007, guid: b436c36239b520349acfbff5347a12a8,
         type: 3}
       propertyPath: enemyHealth
-      value: 2
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6810234778609570007, guid: b436c36239b520349acfbff5347a12a8,
         type: 3}
