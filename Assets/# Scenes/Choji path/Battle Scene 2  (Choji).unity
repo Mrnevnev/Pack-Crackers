@@ -1680,25 +1680,55 @@ PrefabInstance:
     - target: {fileID: 579441113266302926, guid: 6633f6e9de192204c8e5d55d568d525b,
         type: 3}
       propertyPath: deckToUse.Array.size
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 579441113266302926, guid: 6633f6e9de192204c8e5d55d568d525b,
         type: 3}
-      propertyPath: deckToUse.Array.data[2]
+      propertyPath: deckToUse.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: 361a8f19704b94a4ea693714c1be6d45,
+      objectReference: {fileID: 11400000, guid: 9a46fe8874af88c48ab5a885fafef64a,
         type: 2}
     - target: {fileID: 579441113266302926, guid: 6633f6e9de192204c8e5d55d568d525b,
         type: 3}
-      propertyPath: deckToUse.Array.data[3]
+      propertyPath: deckToUse.Array.data[1]
       value: 
       objectReference: {fileID: 11400000, guid: 7637bb20925481d4c9c90aff712cd088,
         type: 2}
     - target: {fileID: 579441113266302926, guid: 6633f6e9de192204c8e5d55d568d525b,
         type: 3}
-      propertyPath: deckToUse.Array.data[4]
+      propertyPath: deckToUse.Array.data[2]
       value: 
       objectReference: {fileID: 11400000, guid: 621a289baef092540b139fbff5cdb98b,
+        type: 2}
+    - target: {fileID: 579441113266302926, guid: 6633f6e9de192204c8e5d55d568d525b,
+        type: 3}
+      propertyPath: deckToUse.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 6f7f61b3e885a5f488b0070adf4ddcf4,
+        type: 2}
+    - target: {fileID: 579441113266302926, guid: 6633f6e9de192204c8e5d55d568d525b,
+        type: 3}
+      propertyPath: deckToUse.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: fa76f3b4c090b6d44b9b8b26c76d4158,
+        type: 2}
+    - target: {fileID: 579441113266302926, guid: 6633f6e9de192204c8e5d55d568d525b,
+        type: 3}
+      propertyPath: deckToUse.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: 974ebb31070854b48962fcfed9011c59,
+        type: 2}
+    - target: {fileID: 579441113266302926, guid: 6633f6e9de192204c8e5d55d568d525b,
+        type: 3}
+      propertyPath: deckToUse.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: d0767b9f4762eed41b5c2001863cd823,
+        type: 2}
+    - target: {fileID: 579441113266302926, guid: 6633f6e9de192204c8e5d55d568d525b,
+        type: 3}
+      propertyPath: deckToUse.Array.data[7]
+      value: 
+      objectReference: {fileID: 11400000, guid: 361a8f19704b94a4ea693714c1be6d45,
         type: 2}
     - target: {fileID: 579441113266302927, guid: 6633f6e9de192204c8e5d55d568d525b,
         type: 3}
@@ -1917,6 +1947,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3710476581296286111, guid: 5192f35928b69444c9e4cfb61c9a7e09,
+        type: 3}
+      propertyPath: deckToUse.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3710476581296286111, guid: 5192f35928b69444c9e4cfb61c9a7e09,
+        type: 3}
+      propertyPath: deckToUse.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 20f620b31c702904994d6657d60da974,
+        type: 2}
+    - target: {fileID: 3710476581296286111, guid: 5192f35928b69444c9e4cfb61c9a7e09,
+        type: 3}
+      propertyPath: deckToUse.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 417552dab04b80a46a014a17298e24f6,
+        type: 2}
+    - target: {fileID: 3710476581296286111, guid: 5192f35928b69444c9e4cfb61c9a7e09,
+        type: 3}
+      propertyPath: deckToUse.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a7091ec765ce4b42a7ecbb2a90d6b84,
+        type: 2}
+    - target: {fileID: 3710476581296286111, guid: 5192f35928b69444c9e4cfb61c9a7e09,
+        type: 3}
+      propertyPath: deckToUse.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0d5609c20d29c084da8f83563c70a754,
+        type: 2}
+    - target: {fileID: 3710476581296286111, guid: 5192f35928b69444c9e4cfb61c9a7e09,
+        type: 3}
+      propertyPath: deckToUse.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: 4df84daaff4eb2a4ead15b6efbc659f0,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5192f35928b69444c9e4cfb61c9a7e09, type: 3}
 --- !u!1001 &6810234778488625537
@@ -1989,7 +2054,7 @@ PrefabInstance:
     - target: {fileID: 6810234778609570007, guid: b436c36239b520349acfbff5347a12a8,
         type: 3}
       propertyPath: enemyHealth
-      value: 10
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6810234778609570007, guid: b436c36239b520349acfbff5347a12a8,
         type: 3}
@@ -2609,6 +2674,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8910917435347459436, guid: 4a0308ce92d2858488c9c89427cc0587,
+        type: 3}
+      propertyPath: m_text
+      value: 'Energy: X'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8910917435412336454, guid: 4a0308ce92d2858488c9c89427cc0587,
+        type: 3}
+      propertyPath: m_text
+      value: Choji Health X
+      objectReference: {fileID: 0}
+    - target: {fileID: 8910917435543655516, guid: 4a0308ce92d2858488c9c89427cc0587,
+        type: 3}
+      propertyPath: m_text
+      value: Draw A Card          (Cost 2 Energy)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8910917435744488704, guid: 4a0308ce92d2858488c9c89427cc0587,
+        type: 3}
+      propertyPath: m_text
+      value: Mikan Health X
+      objectReference: {fileID: 0}
+    - target: {fileID: 8910917435915979700, guid: 4a0308ce92d2858488c9c89427cc0587,
+        type: 3}
+      propertyPath: m_text
+      value: 'Energy: X'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8910917435915979700, guid: 4a0308ce92d2858488c9c89427cc0587,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 55.7
       objectReference: {fileID: 0}
     - target: {fileID: 8910917437079107747, guid: 4a0308ce92d2858488c9c89427cc0587,
         type: 3}

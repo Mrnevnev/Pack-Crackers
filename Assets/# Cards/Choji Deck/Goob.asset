@@ -15,7 +15,7 @@ MonoBehaviour:
   cardName: Goob
   cardAbility: Summon 1 Momma Bear
   cardLore: Don't mess with the Cub.
-  cardHealth: 3
+  cardHealth: 2
   cardAttack: 2
-  cardCost: 1
+  cardCost: 2
   characterImage: {fileID: 21300000, guid: 8962ffeb5c03b334d81038fea4e22d3e, type: 3}

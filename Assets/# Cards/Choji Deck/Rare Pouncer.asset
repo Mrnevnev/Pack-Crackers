@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f9ced1179b52d943b9d37974317e9ac, type: 3}
-  m_Name: Meowjesty
+  m_Name: Rare Pouncer
   m_EditorClassIdentifier: 
-  cardName: Meowjesty
+  cardName: Rare Pouncer
   cardAbility: 
   cardLore: 
-  cardHealth: 7
-  cardAttack: 5
-  cardCost: 8
-  characterImage: {fileID: 21300000, guid: 61bec5a6884aecb4799736e3a8ef30fa, type: 3}
+  cardHealth: 5
+  cardAttack: 4
+  cardCost: 6
+  characterImage: {fileID: 21300000, guid: 1b8e9124d6874a44c91a594e1ea08894, type: 3}

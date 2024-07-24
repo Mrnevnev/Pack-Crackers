@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f9ced1179b52d943b9d37974317e9ac, type: 3}
-  m_Name: Meowjesty
+  m_Name: Sly Mouser
   m_EditorClassIdentifier: 
-  cardName: Meowjesty
+  cardName: Sly Mouser
   cardAbility: 
   cardLore: 
-  cardHealth: 7
-  cardAttack: 5
-  cardCost: 8
-  characterImage: {fileID: 21300000, guid: 61bec5a6884aecb4799736e3a8ef30fa, type: 3}
+  cardHealth: 2
+  cardAttack: 3
+  cardCost: 4
+  characterImage: {fileID: 21300000, guid: b9c414044b010794b83ea9fccd6e3de8, type: 3}

@@ -15,7 +15,7 @@ MonoBehaviour:
   cardName: Snow Paws
   cardAbility: 
   cardLore: 
-  cardHealth: 3
-  cardAttack: 2
-  cardCost: 3
+  cardHealth: 6
+  cardAttack: 5
+  cardCost: 7
   characterImage: {fileID: 21300000, guid: 13a4b713c6ef08f4bbef8d675a351cae, type: 3}

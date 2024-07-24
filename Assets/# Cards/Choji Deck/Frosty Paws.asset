@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f9ced1179b52d943b9d37974317e9ac, type: 3}
-  m_Name: Meowjesty
+  m_Name: Frosty Paws
   m_EditorClassIdentifier: 
-  cardName: Meowjesty
+  cardName: Frosty Paws
   cardAbility: 
   cardLore: 
-  cardHealth: 7
-  cardAttack: 5
-  cardCost: 8
-  characterImage: {fileID: 21300000, guid: 61bec5a6884aecb4799736e3a8ef30fa, type: 3}
+  cardHealth: 3
+  cardAttack: 2
+  cardCost: 4
+  characterImage: {fileID: 21300000, guid: 787e4f5cbaf01cf498454945b79e9a8b, type: 3}
