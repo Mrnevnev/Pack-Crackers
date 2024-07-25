@@ -30,15 +30,6 @@ EditorBuildSettings:
     path: Assets/# Scenes/Choji path/Choji after battle.unity
     guid: 26ee8d52c24a5bb4ab6cd6ff40c30594
   - enabled: 1
-    path: Assets/# Scenes/Senri Dialogue.unity
-    guid: 59baafe14e6eecf4eb5c6fff46d4f64d
-  - enabled: 1
-    path: Assets/# Scenes/Battle Scene 1 (Senri).unity
-    guid: a7fe94b9d5a2cda409e49128ab258ef7
-  - enabled: 1
-    path: Assets/# Scenes/Mikan Dialogue.unity
-    guid: 5e29640a781078d4f92e845242dfb4ed
-  - enabled: 1
-    path: Assets/# Scenes/Battle Scene 3 (Mikan).unity
-    guid: e802d415c1d09fc42b6951e55f4d7f9b
+    path: Assets/# Scenes/Choji path/Credits.unity
+    guid: 21b540d9b65bf76429a6ad5dae9fa189
   m_configObjects: {}
